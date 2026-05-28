@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agro Forte - Futuro Sustentável</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="hero">
+
+    <nav class="navbar">
+      <h2 class="logo">🌱 AgroFuturo</h2>
+
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#impactos">Impactos</a></li>
+        <li><a href="#solucoes">Soluções</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Agro forte,<br> futuro sustentável</h1>
+      <p>Produzir alimentos e preservar o meio ambiente podem caminhar juntos. Descubra como a tecnologia e práticas sustentáveis fazem a diferença.</p>
+      <a href="#sobre" class="btn">Explorar Projeto</a>
+    </div>
+
+  </header>
+
+  <section id="sobre" class="card">
+    <h2>🌎 Sobre o Projeto</h2>
+    <p>Este projeto apresenta soluções para um agronegócio sustentável, utilizando tecnologia para monitorar plantações, economizar água e preservar o solo e florestas.</p>
+    <p>Queremos mostrar que o futuro da agricultura pode ser forte e verde ao mesmo tempo!</p>
+  </section>
+
+  <section id="impactos" class="impactos">
+    <h2>⚠️ Problemas Ambientais</h2>
+    <div class="cards-container">
+      <div class="mini-card">
+        <i class="fas fa-fire"></i>
+        <h3>Queimadas</h3>
+        <p>Destroem habitats, prejudicam o ar e aumentam o aquecimento global.</p>
+      </div>
+      <div class="mini-card">
+        <i class="fas fa-water"></i>
+        <h3>Desperdício de Água</h3>
+        <p>O uso excessivo prejudica rios e a vida aquática.</p>
+      </div>
+      <div class="mini-card">
+        <i class="fas fa-seedling"></i>
+        <h3>Solo Degradado</h3>
+        <p>O excesso de químicos empobrece o solo, reduzindo sua fertilidade.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="solucoes" class="solucoes">
+    <h2>✅ Soluções Sustentáveis</h2>
+    <div class="cards-container">
+      <div class="solution-card">
+        <span>🚜</span>
+        <h3>Agricultura Inteligente</h3>
+        <p>Drones e sensores monitoram plantações evitando desperdícios.</p>
+      </div>
+      <div class="solution-card">
+        <span>💦</span>
+        <h3>Irrigação Consciente</h3>
+        <p>Sistemas automáticos reduzem o consumo de água em até 40%.</p>
+      </div>
+      <div class="solution-card">
+        <span>🌳</span>
+        <h3>Preservação Ambiental</h3>
+        <p>Áreas verdes protegem a biodiversidade e o clima.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2>📸 Galeria de Práticas Sustentáveis</h2>
+    <div class="galeria-container">
+      <img src="https://images.unsplash.com/photo-1604024731571-0e0aa9e05827" alt="Plantio sustentável">
+      <img src="https://images.unsplash.com/photo-1589395595558-6aeb8f49b2cd" alt="Irrigação moderna">
+      <img src="https://images.unsplash.com/photo-1612832021061-5b3f0a13d29d" alt="Áreas verdes preservadas">
+    </div>
+  </section>
+
+  <section id="quiz" class="quiz">
+    <h2>🧠 Quiz Sustentável</h2>
+    <div class="quiz-box">
+      <p>Qual prática ajuda o meio ambiente no campo?</p>
+      <button onclick="respostaCerta()">Uso consciente da água</button>
+      <button onclick="respostaErrada()">Desmatamento excessivo</button>
+      <button onclick="respostaErrada()">Queimadas ilegais</button>
+      <div id="resultado"></div>
+    </div>
+  </section>
+
+  <section class="contador">
+    <h2>🌿 Árvores Preservadas</h2>
+    <p id="numero">0</p>
+  </section>
+
+  <footer>
+    <p>Projeto desenvolvido para o Concurso Agrinho 2026</p>
+    <p>Tema: Agro forte, futuro sustentável</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
